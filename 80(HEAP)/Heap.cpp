@@ -133,7 +133,7 @@ int main()
 
     int n = 5;
 
-    // heapify
+    // heapcreation
     for (int i = n / 2; i > 0; i--)
     {
         heapify(arr, n, i);
