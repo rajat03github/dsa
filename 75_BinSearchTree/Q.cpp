@@ -134,8 +134,6 @@ Node *maxValue(Node *root)
 
 Node *deleteFromBST(Node *root, int val)
 
-
-
 {
     // base case
     if (root == NULL)
@@ -231,9 +229,9 @@ int main()
     cout << "Min Value is : " << minValue(root)->data << endl;
     cout << "Max Value is : " << maxValue(root)->data << endl;
 
-    root = deleteFromBST(root , 50);
+    root = deleteFromBST(root, 50);
 
-    cout<<"After Deletion ~~~ "<<endl;
+    cout << "After Deletion ~~~ " << endl;
 
     cout << "Printing the BST ~" << endl;
     levelOrderTraversal(root);
@@ -253,7 +251,6 @@ int main()
 
     cout << "Min Value is : " << minValue(root)->data << endl;
     cout << "Max Value is : " << maxValue(root)->data << endl;
-
 
     return 0;
 }

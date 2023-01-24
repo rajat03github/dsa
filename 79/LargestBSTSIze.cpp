@@ -59,11 +59,10 @@ info solve(TreeNode<int> *root, int &ans)
     {
         currNode.isBST = false;
     }
-    //update answer 
-    if(currNode.isBST)
+    // update answer
+    if (currNode.isBST)
     {
-        ans = max(ans , currNode.size);
-
+        ans = max(ans, currNode.size);
     }
     return currNode;
 }
