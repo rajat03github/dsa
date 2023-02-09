@@ -20,6 +20,7 @@ int main()
     m.insert(pair2);
 
     // 3
+
     m["mera"] = 1;
 
     // this will update
@@ -61,6 +62,7 @@ int main()
 
     while (it != m.end())
     {
+
         cout << it->first << " " << it->second << endl;
         it++;
     }
